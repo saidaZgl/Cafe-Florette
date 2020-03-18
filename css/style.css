@@ -1,140 +1,180 @@
 /* General */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    color: #222;
-    font-family: 'Open Sans', sans-serif;
+  color: #222;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
 h2,
 h3 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 p {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 a {
-    color: #222;
-    text-decoration: none;
+  color: #222;
+  text-decoration: none;
 }
 
 .separator {
-    margin: 20px auto;
-    height: 10px;
-    width: 100px;
-    background: #111;
+  margin: 20px auto;
+  height: 10px;
+  width: 100px;
+  background: #111;
 }
 
 .btn {
-    display: inline-block;
-    padding: 15px 25px;
-    border-radius: 30px;
-    font-weight: 700;
-    font-size: 14px;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .btn-primary {
-    background: white;
-    color: #222;
+  background: white;
+  color: #222;
+}
+
+.btn-dark {
+  background: #222;
+  color: white;
+  border: 1px solid #222;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: #222;
 }
 
 .btn-primary:hover {
-    background: #222;
-    color: white;
+  background: #222;
+  color: white;
 }
 
 .container {
-    max-width: 1000px;
-    display: block;
-    margin: auto;
+  max-width: 1000px;
+  display: block;
+  margin: auto;
 }
 
 .my-10 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* header */
 .header {
-    background: #333;
-    overflow: auto;
-    line-height: 1.7em;
+  background: #333;
+  overflow: auto;
+  line-height: 1.7em;
 }
 
 .header nav h1 {
-    float: left;
-    padding: 20px;
-    margin-bottom: 0;
+  float: left;
+  padding: 20px;
+  margin-bottom: 0;
 }
 
 .header nav h1 a {
-    color: white;
+  color: white;
 }
 
 .header nav ul {
-    float: right;
-    list-style: none;
+  float: right;
+  list-style: none;
 }
 
 .header nav ul li {
-    float: left;
+  float: left;
 }
 
 .header nav ul li a {
-    color: white;
-    padding: 20px;
-    display: block;
+  color: white;
+  padding: 20px;
+  display: block;
 }
 
 .header nav ul li a:hover,
 .active {
-    background: #444;
+  background: #444;
 }
 
-
-/* Value proposition */
+/* vp */
 
 .vp {
-    height: 700px;
-    background: url(../images/cafe1.jpg)center center;
-    background-size: cover;
-    text-align: center;
+  height: 700px;
+  background: url(../images/cafe1.jpg) center center;
+  background-size: cover;
+  text-align: center;
 }
 
 .vp-content {
-    max-width: 600px;
-    padding-top: 150px;
-    color: white;
-    margin: auto;
+  max-width: 600px;
+  padding-top: 150px;
+  color: white;
+  margin: auto;
 }
 
 .vp-content h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .vp-content p {
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    line-height: 1.9em;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
 }
 
-/* Features */
+/* features */
 .features {
-    overflow: auto;
-    padding: 100px 0px;
-    text-align: center;
+  overflow: auto;
+  padding: 100px 0px;
+  text-align: center;
 }
 
 .feature {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
+}
+
+/* person */
+.person {
+  height: 400px;
+  background: url(../images/cafe3.jpg) center center/cover;
+}
+
+/* reservetion */
+.reservation {
+  padding: 100px 0px;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
 }
