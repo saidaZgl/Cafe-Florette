@@ -15,3 +15,11 @@
 <h2 align="center">
   <img src="images/maquette3.png" style="max-width:100%" alt="cafe florette" />
 </h2>
+
+<h2 align="center">
+  <img src="images/maquette4.png" style="max-width:100%" alt="cafe florette" />
+</h2>
+
+<h2 align="center">
+  <img src="images/maquette5.png" style="max-width:100%" alt="cafe florette" />
+</h2>
