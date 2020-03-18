@@ -8,6 +8,7 @@
 
 html,
 body {
+    color: #222;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -49,6 +50,12 @@ a {
 .btn-primary:hover {
     background: #222;
     color: white;
+}
+
+.container {
+    max-width: 1000px;
+    display: block;
+    margin: auto;
 }
 
 .my-10 {
@@ -118,4 +125,16 @@ a {
     font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 1.9em;
+}
+
+/* Features */
+.features {
+    overflow: auto;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.feature {
+    float: left;
+    width: 50%;
 }
