@@ -1,10 +1,12 @@
-/* General */
+/* reset */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* General */
 
 html,
 body {
@@ -52,6 +54,9 @@ a {
   background: #222;
   color: white;
   border: 1px solid #222;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .btn-dark:hover {
@@ -142,7 +147,7 @@ a {
 /* vp */
 
 .vp {
-  height: 700px;
+  min-height: 700px;
   background: url(../images/cafe1.jpg) center center;
   background-size: cover;
   text-align: center;
@@ -150,13 +155,14 @@ a {
 
 .vp-content {
   max-width: 600px;
+  padding: 20px;
   padding-top: 150px;
   color: white;
   margin: auto;
 }
 
 .vp-content h1 {
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 .vp-content p {
@@ -168,7 +174,7 @@ a {
 /* features */
 .features {
   overflow: auto;
-  padding: 100px 0px;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -185,7 +191,7 @@ a {
 
 /* reservetion */
 .reservation {
-  padding: 100px 0px;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -230,6 +236,7 @@ footer p {
 
 .contact-form-container {
   max-width: 600px;
+  padding: 20px;
   margin: auto;
 }
 
